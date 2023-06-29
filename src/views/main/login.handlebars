@@ -9,8 +9,8 @@
             <div class="bs-component">
 
 <div class="form-group">
-                <label class="col-form-label mt-4" for="Username">Username</label>
-                <input type="text" class="form-control" placeholder="Default input" id="username" name ="username" value="{{username}}">
+                <label class="col-form-label mt-4" for="email">Email</label>
+                <input type="text" class="form-control" placeholder="Default input" id="email" name ="email" value="{{email}}">
 
                 {{#if incorreto}}
                         <div class="invalid-feedback" style = "display: block">Usuario ou senha incorreo</div>
@@ -27,7 +27,7 @@
 
 <div class="form-group">
     <input type="hidden" name = "_csrf" value = "{{csrf}}"/><!--Cookie-->
-    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <button type="submit" class="btn btn-primary">Entrar</button>
 </div>
 
             </div><!-- /example -->
